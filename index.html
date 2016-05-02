@@ -6,6 +6,7 @@
     <link rel="stylesheet" type="text/css" href="assets/styling.css">
     <link rel="stylesheet" href="assets/unsemantic-grid-responsive-tablet.css">
     <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1"/>
+    <link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
 </head>
 <body>
 
@@ -31,26 +32,26 @@
     <!-- Using section so that css can be applied to certain parts of the website. -->
     <section>
         <!-- Using article inside of a section so that css can be applied on top of the css of the section. -->
-        <article>
+        <article class="grid-container">
             <h2>Upcoming Events</h2>
             <p>
                 On Sunday the fifteenth of May the Banchory pipeband competition will be taking place. I will be there competing with Buchan
                 pipeband in grade 2, were we hope to do well and hope for good weather.
-            </p>
-            <p>
+                <br> <br>
                 I am due to finish year three of a four year BSc in computer network management and design at Rober Gordon University.
             </p>
         </article>
     </section>
     <section>
-        <article>
-            <h3>Recent Events</h3>
-            <p>
+        <article class="grid-container">
+            <h2>Recent Events</h2>
+            <p class="grid-60 mobile-grid-100 tablet-grid-100">
                 In March I competed in the north of Scotland bagpipe quartets competition with Buchan pipeband. The competition took place at
-                Gordon Schools in Huntly, where there were over sixty entries in the competition. This was my first competition with the Buchan
+                Gordon Schools in Huntly, where there were over sixty entries in the competition. <br> <br> This was my first competition with the Buchan
                 pipeband and even though it was a small competition I was still nervous. Despite my nerves the band played well,
                 taking first place over the four bands that competed in our grade.
             </p>
+            <p class="grid-40 mobile-grid-100 tablet-grid-100" id="apiplaceholder">API PLACEHOLDER</p>
         </article>
     </section>
 </main>
